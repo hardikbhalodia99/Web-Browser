@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/toggle_tab_switcher_menu_item"
+        android:title="@string/toggle_tab_switcher_menu_item"
+        app:actionLayout="@layout/tab_switcher_menu_item"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/reload"
+        android:title="Reload"
+        app:showAsAction="always"
+        android:icon="@drawable/refresh"
+        android:orderInCategory="100"
+        />
+
+
+    <item
+        android:title="Addbookmark"
+        android:id="@+id/bookmark"
+        app:showAsAction="always"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_bookmark_border_black_24dp"
+        />
+
+
+    <item
+        android:title="Permissions"
+        android:id="@+id/permission_menu"
+        app:showAsAction="never"
+        android:orderInCategory="100"
+        />
+
+    <item
+        android:id="@+id/add_tab_menu_item"
+        android:title="@string/add_tab_menu_item"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/add_tab_incognito"
+        android:title="New Incognito Tab"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/history"
+        android:title="History"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/bookmarks"
+        android:title="Bookmarks"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/remove_tab_menu_item"
+        android:title="@string/remove_tab_menu_item"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/tab_share"
+        android:title="Share"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/desktop_site"
+        android:title="Desktop Site"
+        android:checkable="true"
+        />
+
+
+    <item
+        android:id="@+id/downloads"
+        android:title="Downloads"
+        app:showAsAction="collapseActionView"/>
+
+    <item
+        android:id="@+id/settings_menu_item"
+        android:title="@string/settings_menu_item"
+        app:showAsAction="collapseActionView"/>
+
+</menu>
